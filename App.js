@@ -13,7 +13,7 @@ export default function App() {
 
       
       <Text style={styles.label}>
-        Nom : <Text style={styles.value}>TENSAOUI</Text>
+        Nom : <Text style={styles.value}>TENSAOUi</Text>
       </Text>
       <Text style={styles.label}>
         Prénom : <Text style={styles.value}>ALI</Text>

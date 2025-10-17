@@ -3,7 +3,6 @@ import { Image, Text, View, StyleSheet } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* Header with image + title on same line */}
       <View style={styles.header}>
         <Image
           source={require('./assets/Emsi.jpeg')}
@@ -12,7 +11,7 @@ export default function App() {
         <Text style={styles.title}>STUDENT CARD EMSI CENTRE</Text>
       </View>
 
-      {/* Student info */}
+      
       <Text style={styles.label}>
         Nom : <Text style={styles.value}>TENSAOUI</Text>
       </Text>
